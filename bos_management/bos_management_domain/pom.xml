@@ -6,4 +6,5 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>bos_management_domain</artifactId>
+  <description>管理后台的实体类</description>
 </project>

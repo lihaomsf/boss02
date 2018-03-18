@@ -9,7 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <!-- 指定Spring框架配置文件的位置 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>

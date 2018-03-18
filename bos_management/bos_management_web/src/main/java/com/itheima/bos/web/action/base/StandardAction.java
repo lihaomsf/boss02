@@ -24,6 +24,7 @@ import com.itheima.bos.service.base.StandardService;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 @Namespace("/")
 @ParentPackage("struts-default")
@@ -48,6 +49,7 @@ public class StandardAction extends ActionSupport
        standardService.save(model);
         return SUCCESS;
     }
+    
     // 使用属性驱动获取数据
     private int page;// 第几页
     private int rows;// 每一页显示多少条数据
@@ -61,7 +63,7 @@ public class StandardAction extends ActionSupport
     }
 
     // AJAX请求不需要跳转页面
-    @Action("standardAction_pageQuery")
+    @Action(value = "standardAction_pageQuery")
     public String pageQuery() throws IOException {
 
         // EasyUI的页码是从1开始的
@@ -76,7 +78,6 @@ public class StandardAction extends ActionSupport
         long total = page.getTotalElements();
         // 当前页要实现的内容
         List<Standard> list = page.getContent();
-       
         // 封装数据
         Map<String, Object> map = new HashMap<>();
 
@@ -100,4 +101,19 @@ public class StandardAction extends ActionSupport
         return NONE;
     }
     
+    // 查询所有的派送标准
+    @Action(value = "standard_findAll")
+    public String findAll() throws IOException {
+        // 查询数据
+        Page<Standard> page = standardService.findAll(null);
+        // 获取页面的数据
+        List<Standard> list = page.getContent();
+        // 转换数据为json并传回页面
+        String json = JSONArray.fromObject(list).toString();
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("application/json;charset=UTF-8");
+        response.getWriter().write(json);
+        return NONE;
+
+    }
 }

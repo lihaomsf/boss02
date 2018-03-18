@@ -49,17 +49,18 @@
 				text : '修改',
 				iconCls : 'icon-edit',
 				handler : function(){
-					//判断用户勾选的条数
+					// 判断用户勾选的数据的条数
 					var result = $("#grid").datagrid("getSelections")
-					if (result.length==1) {
-						//选择一条数据的才能修改
-						//打开修改窗口
+					if (result.length == 1) {
+						// 勾选一条数据的时候,才可以进行修改
+						// 打开窗口
 						$("#standardWindow").window("open")
 						//回填数据到form表单
 						$("#standardForm").form("load", result[0])
-					}else {
+					} else {
 						$.messager.alert("提示", "您必须也只能选择一条数据进行修改", "info")
-					}	
+					}
+				
 				}
 			},{
 				id : 'button-delete',
@@ -124,15 +125,15 @@
 			} ] ];
 		</script>
 		<script type="text/javascript">
-			function submitData(){
-				//校验表单中必填项
-				var result = $("#standardForm").form("validate")
-				//判断必填项的状况
-				if(result){}
-				$("#standardForm").submit()
-			}
-		
-		</script>
+	function submitData() {
+		// 校验表单中必填项是否都已经填写了
+		var result = $("#standardForm").form("validate")
+		if (result) {
+				// 提交表单
+			$("#standardForm").submit()
+		}
+	}
+</script>
 	</head>
 
 	<body class="easyui-layout" style="visibility:hidden;">
@@ -143,7 +144,7 @@
 		<div class="easyui-window" title="对收派标准进行添加或者修改" id="standardWindow" collapsible="false" minimizable="false" maximizable="false" modal="true" closed="true" style="width:600px;top:50px;left:200px">
 			<div region="north" style="height:31px;overflow:hidden;" split="false" border="false">
 				<div class="datagrid-toolbar">
-					<a id="save" onclick="submitData()" icon="icon-save" href="#" class="easyui-linkbutton" plain="true">保存</a>
+					<a onclick="submitData()" id="save" icon="icon-save" href="#" class="easyui-linkbutton" plain="true">保存</a>
 				</div>
 			</div>
 

@@ -6,6 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>bos_management_service</artifactId>
+  <description>管理后台service</description>
   <dependencies>
   	<dependency>
   		<groupId>com.itheima</groupId>
