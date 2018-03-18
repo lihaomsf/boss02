@@ -21,21 +21,21 @@
 			}
 			
 			function doEdit(){
-				alert("修改...");
+				alert("打死...");
 			}
 			
 			function doDelete(){
 			
 			}
 			
-			function doSearch() {
+			function openSearchWindow() {
 				// 打开搜索窗口
 				$("#searchWindow").window("open")
 			
 			}
 			
 			function doRestore(){
-				alert("将取派员还原...");
+				alert("打死...");
 			}
 			//工具栏
 			var toolbar = [ {
@@ -100,7 +100,7 @@
 				id : 'button-search',
 				text : '搜索',
 				iconCls : 'icon-search',
-				handler : doSearch
+				handler : openSearchWindow
 			}];
 			// 定义列
 			var columns = [ [ {
@@ -220,6 +220,35 @@
 			$("#courierForm").submit()
 		}
 	}
+	// 将form表单中input节点的数据转为json
+	$.fn.serializeJson = function() {
+		var serializeObj = {};
+		var array = this.serializeArray();
+		var str = this.serialize();
+		$(array).each(
+				function() {
+					if (serializeObj[this.name]) {
+						if ($.isArray(serializeObj[this.name])) {
+							serializeObj[this.name].push(this.value);
+						} else {
+							serializeObj[this.name] = [
+									serializeObj[this.name], this.value ];
+						}
+					} else {
+						serializeObj[this.name] = this.value;
+					}
+				});
+		return serializeObj;
+	};
+	
+	// 发起查询请求
+	function doSearch() {
+		// 把form表单中input节点的name的值和用户输入的内容,拼接成json字符串
+		var result = $("#searchForm").serializeJson()
+		//让datagrid重新发起请求
+		console.log(result)
+		$('#grid').datagrid('load', result);
+	}
 </script>
 	</head>
 
@@ -333,7 +362,8 @@
 							</td>
 						</tr>
 						<tr>
-							<td colspan="2"><a id="searchBtn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a> </td>
+							<td colspan="2"><a id="searchBtn" href="#" onclick="doSearch()"
+							class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a> </td>
 						</tr>
 					</table>
 				</form>
