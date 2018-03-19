@@ -13,6 +13,7 @@ import org.springframework.data.domain.Page;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import net.sf.json.JsonConfig;
 
@@ -23,7 +24,7 @@ import net.sf.json.JsonConfig;
  */
 public class CommonAction<T> extends ActionSupport implements ModelDriven<T> {
 
-    private T model;
+    private T model ;
     private Class<T> clazz;
 
     public CommonAction(Class<T> clazz) {
@@ -33,12 +34,16 @@ public class CommonAction<T> extends ActionSupport implements ModelDriven<T> {
 
     @Override
     public T getModel() {
-        try {
-            model = clazz.newInstance();
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (model==null) {
+            try {
+                model = clazz.newInstance();
+            }catch (Exception e) {
+                  
+                // TODO Auto-generated catch block  
+                e.printStackTrace();  
+                return model; 
+            }
         }
-
         return model;
     }
 
@@ -79,5 +84,15 @@ public class CommonAction<T> extends ActionSupport implements ModelDriven<T> {
         response.setContentType("application/json;charset=UTF-8");
         response.getWriter().write(json);
     }
-
+    public void  list2json(List<T> list ,JsonConfig jsonConfig) throws IOException {
+        String json;
+        if (jsonConfig!=null) {
+             json = JSONArray.fromObject(list,jsonConfig).toString();
+        }else{
+            json = JSONArray.fromObject(list).toString();
+        }
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setContentType("application/json;charset=UTF-8");
+        response.getWriter().write(json);
+    }
 }

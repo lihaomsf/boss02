@@ -22,17 +22,22 @@ import com.itheima.bos.service.base.AreaService;
 @Transactional
 public class AreaServiceImpl implements AreaService {
     @Autowired
-    private  ArearRepository arearRepository;
+    private  ArearRepository areaRepository;
     
     @Override
     public void save(List<Area> list) {
-        arearRepository.save(list);
+        areaRepository.save(list);
         
     }
     @Override
     public Page<Area> findAll(Pageable pageable) {
           
-        return arearRepository.findAll(pageable);
+        return areaRepository.findAll(pageable);
+    }
+    @Override
+    public List<Area> findByQ(String q) {
+        q = "%" + q.toUpperCase() + "%";
+        return areaRepository.findQ(q);
     }
 }
   
