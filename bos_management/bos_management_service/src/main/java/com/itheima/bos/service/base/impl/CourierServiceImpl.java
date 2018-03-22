@@ -55,4 +55,10 @@ public class CourierServiceImpl implements CourierService {
     public Page<Courier> findAll(Specification<Courier> specification, Pageable pageable) {
         return courierRepository.findAll(specification, pageable);
     }
+
+    @Override
+    public List<Courier> findAvaible() {
+          
+        return courierRepository.findByDeltagIsNull();
+    }
 }

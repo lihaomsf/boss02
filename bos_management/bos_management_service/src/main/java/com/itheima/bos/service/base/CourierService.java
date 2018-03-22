@@ -22,5 +22,7 @@ public interface CourierService {
     void batchDel(String ids);
 
     Page<Courier> findAll(Specification<Courier> specification, Pageable pageable);
+
+    List<Courier> findAvaible();
 }
   
