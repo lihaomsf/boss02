@@ -189,7 +189,7 @@ public class CourierAction extends CommonAction<Courier> {
         return NONE;
     }
 
-    @Action("courierAction_listajax2")
+ @Action("courierAction_listajax2")
     public String listajax2() throws IOException {
         // 查询所有的在职的快递员
 
@@ -200,5 +200,4 @@ public class CourierAction extends CommonAction<Courier> {
         list2json(list, jsonConfig);
         return NONE;
     }
-
 }

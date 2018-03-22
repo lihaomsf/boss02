@@ -15,7 +15,7 @@ import com.itheima.crm.domain.Customer;
  */
 public interface CustomerRepository extends JpaRepository<Customer, Long>{
 
-    List<Customer> findByFixedAreaIdIsNull = null;
+    List<Customer> findByFixedAreaIdIsNull();
 
     List<Customer> findByFixedAreaId(String fixedAreaId);
     // 把关联到指定定区的客户进行解绑操作

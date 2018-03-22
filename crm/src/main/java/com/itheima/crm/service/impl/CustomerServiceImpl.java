@@ -34,7 +34,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public List<Customer> findCustomersUnAssociated() {
           
-        return customerRepository.findByFixedAreaIdIsNull;
+        return customerRepository.findByFixedAreaIdIsNull();
     }
 
 

@@ -25,5 +25,4 @@ public interface CourierRepository extends JpaRepository<Courier, Long> ,JpaSpec
     
     //List<Courier> findByDeltagIsNull();
     List<Courier> findByDeltagIsNull();
-
 }
