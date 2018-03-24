@@ -1,0 +1,130 @@
+20:29:55,041  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:29:55,060  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:29:55,064  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:29:57,042  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:29:57,185  INFO ExecutionEventLogger:256 - 
+20:29:57,190  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:29:57,190  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+20:29:57,191  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:29:57,340  INFO ExecutionEventLogger:283 - 
+20:29:57,340  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ common_parent ---
+20:29:57,735  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\common_parent\pom.xml to H:\maven\repository\com\itheima\common_parent\0.0.1-SNAPSHOT\common_parent-0.0.1-SNAPSHOT.pom
+20:29:57,792  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:29:57,792  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:29:57,793  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:29:57,793  INFO ExecutionEventLogger:223 - Total time: 0.822 s
+20:29:57,794  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:29:57+08:00
+20:29:57,814  INFO ExecutionEventLogger:233 - Final Memory: 6M/15M
+20:29:57,815  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:46:40,582  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:46:40,587  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:46:40,589  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:46:42,126  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:46:42,250  INFO ExecutionEventLogger:256 - 
+20:46:42,253  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:46:42,253  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+20:46:42,254  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:46:42,335  INFO ExecutionEventLogger:283 - 
+20:46:42,336  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ common_parent ---
+20:46:42,585  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\common_parent\pom.xml to H:\maven\repository\com\itheima\common_parent\0.0.1-SNAPSHOT\common_parent-0.0.1-SNAPSHOT.pom
+20:46:42,617  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:46:42,618  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:46:42,618  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:46:42,619  INFO ExecutionEventLogger:223 - Total time: 0.535 s
+20:46:42,619  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:46:42+08:00
+20:46:42,642  INFO ExecutionEventLogger:233 - Final Memory: 5M/15M
+20:46:42,643  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:54:57,076  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:54:57,090  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:54:57,092  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:54:58,796  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:54:58,935  INFO ExecutionEventLogger:256 - 
+20:54:58,938  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:54:58,938  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+20:54:58,938  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:54:59,026  INFO ExecutionEventLogger:283 - 
+20:54:59,027  INFO ExecutionEventLogger:290 - --- maven-clean-plugin:2.5:clean (default-clean) @ common_parent ---
+20:54:59,187  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:54:59,187  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:54:59,188  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:54:59,188  INFO ExecutionEventLogger:223 - Total time: 0.447 s
+20:54:59,189  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:54:59+08:00
+20:54:59,210  INFO ExecutionEventLogger:233 - Final Memory: 5M/15M
+20:54:59,211  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:07,066  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:55:07,069  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:55:07,073  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:55:08,593  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:55:08,722  INFO ExecutionEventLogger:256 - 
+20:55:08,725  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:08,726  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+20:55:08,726  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:08,807  INFO ExecutionEventLogger:283 - 
+20:55:08,808  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ common_parent ---
+20:55:09,074  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\common_parent\pom.xml to H:\maven\repository\com\itheima\common_parent\0.0.1-SNAPSHOT\common_parent-0.0.1-SNAPSHOT.pom
+20:55:09,094  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:09,094  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:55:09,094  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:09,095  INFO ExecutionEventLogger:223 - Total time: 0.546 s
+20:55:09,095  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:55:09+08:00
+20:55:09,116  INFO ExecutionEventLogger:233 - Final Memory: 6M/15M
+20:55:09,116  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:07:50,240  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:07:50,243  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:07:50,246  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:07:52,107  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:07:52,228  INFO ExecutionEventLogger:256 - 
+21:07:52,232  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:07:52,233  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+21:07:52,233  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:07:52,315  INFO ExecutionEventLogger:283 - 
+21:07:52,315  INFO ExecutionEventLogger:290 - --- maven-clean-plugin:2.5:clean (default-clean) @ common_parent ---
+21:07:52,446  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:07:52,446  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:07:52,446  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:07:52,447  INFO ExecutionEventLogger:223 - Total time: 0.387 s
+21:07:52,447  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:07:52+08:00
+21:07:52,465  INFO ExecutionEventLogger:233 - Final Memory: 5M/15M
+21:07:52,466  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:23:46,959  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:23:46,962  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:23:46,964  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:23:48,713  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:23:48,862  INFO ExecutionEventLogger:256 - 
+21:23:48,866  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:23:48,866  INFO ExecutionEventLogger:86 - Building common_parent 0.0.1-SNAPSHOT
+21:23:48,867  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:23:48,964  INFO ExecutionEventLogger:283 - 
+21:23:48,964  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ common_parent ---
+21:23:49,194  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\common_parent\pom.xml to H:\maven\repository\com\itheima\common_parent\0.0.1-SNAPSHOT\common_parent-0.0.1-SNAPSHOT.pom
+21:23:49,215  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:23:49,215  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:23:49,215  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:23:49,216  INFO ExecutionEventLogger:223 - Total time: 0.599 s
+21:23:49,216  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:23:49+08:00
+21:23:49,236  INFO ExecutionEventLogger:233 - Final Memory: 6M/15M
+21:23:49,237  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------

@@ -1,0 +1,383 @@
+20:34:34,974  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:34:34,976  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:34:34,977  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:34:36,663  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:34:36,825  INFO ExecutionEventLogger:256 - 
+20:34:36,829  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:34:36,831  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+20:34:36,831  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:34:37,708  INFO ExecutionEventLogger:283 - 
+20:34:37,709  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+20:34:37,984  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:34:37,988  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+20:34:37,994  INFO ExecutionEventLogger:283 - 
+20:34:37,994  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+20:34:38,319  INFO CompilerMojo:59 - Changes detected - recompiling the module!
+20:34:38,324  INFO JavacCompiler:59 - Compiling 2 source files to H:\eclipse02\workspace\portal\target\classes
+20:34:39,295  INFO ExecutionEventLogger:283 - 
+20:34:39,295  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+20:34:39,299  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:34:39,300  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+20:34:39,301  INFO ExecutionEventLogger:283 - 
+20:34:39,301  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+20:34:39,317  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+20:34:39,317  INFO ExecutionEventLogger:283 - 
+20:34:39,317  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+20:34:39,462  INFO ExecutionEventLogger:283 - 
+20:34:39,462  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+20:34:39,863  INFO WarMojo:59 - Packaging webapp
+20:34:39,865  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+20:34:39,904  INFO WarMojo:59 - Processing war project
+20:34:39,906  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+20:34:40,735  INFO WarMojo:59 - Webapp assembled in [870 msecs]
+20:34:40,956  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+20:34:46,150  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+20:34:46,191  INFO ExecutionEventLogger:283 - 
+20:34:46,191  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+20:34:46,257  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+20:34:46,716  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+20:34:46,835  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:34:46,836  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:34:46,836  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:34:46,837  INFO ExecutionEventLogger:223 - Total time: 10.215 s
+20:34:46,838  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:34:46+08:00
+20:34:46,930  INFO ExecutionEventLogger:233 - Final Memory: 25M/61M
+20:34:46,930  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:45,098  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:36:45,100  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:36:45,102  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:36:46,723  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:36:46,884  INFO ExecutionEventLogger:256 - 
+20:36:46,890  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:46,890  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+20:36:46,891  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:46,945  INFO ExecutionEventLogger:283 - 
+20:36:46,946  INFO ExecutionEventLogger:290 - --- maven-clean-plugin:2.5:clean (default-clean) @ portal ---
+20:36:47,070  INFO CleanMojo:59 - Deleting H:\eclipse02\workspace\portal\target
+20:36:47,361  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:47,361  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:36:47,361  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:47,362  INFO ExecutionEventLogger:223 - Total time: 0.682 s
+20:36:47,362  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:36:47+08:00
+20:36:47,394  INFO ExecutionEventLogger:233 - Final Memory: 5M/15M
+20:36:47,394  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:57,611  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:36:57,613  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:36:57,614  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:36:59,193  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:36:59,360  INFO ExecutionEventLogger:256 - 
+20:36:59,363  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:36:59,364  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+20:36:59,364  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:37:00,237  INFO ExecutionEventLogger:283 - 
+20:37:00,237  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+20:37:00,559  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:37:00,564  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+20:37:00,574  INFO ExecutionEventLogger:283 - 
+20:37:00,574  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+20:37:00,848  INFO CompilerMojo:59 - Changes detected - recompiling the module!
+20:37:00,857  INFO JavacCompiler:59 - Compiling 2 source files to H:\eclipse02\workspace\portal\target\classes
+20:37:01,623  INFO ExecutionEventLogger:283 - 
+20:37:01,623  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+20:37:01,628  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:37:01,630  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+20:37:01,630  INFO ExecutionEventLogger:283 - 
+20:37:01,630  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+20:37:01,646  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+20:37:01,646  INFO ExecutionEventLogger:283 - 
+20:37:01,646  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+20:37:01,780  INFO ExecutionEventLogger:283 - 
+20:37:01,780  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+20:37:02,047  INFO WarMojo:59 - Packaging webapp
+20:37:02,049  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+20:37:02,060  INFO WarMojo:59 - Processing war project
+20:37:02,061  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+20:37:02,873  INFO WarMojo:59 - Webapp assembled in [824 msecs]
+20:37:03,083  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+20:37:08,007  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+20:37:08,039  INFO ExecutionEventLogger:283 - 
+20:37:08,039  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+20:37:08,108  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+20:37:08,225  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+20:37:08,240  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:37:08,240  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:37:08,240  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:37:08,241  INFO ExecutionEventLogger:223 - Total time: 9.090 s
+20:37:08,241  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:37:08+08:00
+20:37:08,325  INFO ExecutionEventLogger:233 - Final Memory: 25M/61M
+20:37:08,326  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:49:14,873  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:49:14,876  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:49:14,877  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:49:16,407  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:49:16,572  INFO ExecutionEventLogger:256 - 
+20:49:16,577  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:49:16,577  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+20:49:16,578  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:49:17,446  INFO ExecutionEventLogger:283 - 
+20:49:17,446  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+20:49:17,711  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:49:17,715  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+20:49:17,720  INFO ExecutionEventLogger:283 - 
+20:49:17,720  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+20:49:18,017  INFO CompilerMojo:59 - Nothing to compile - all classes are up to date
+20:49:18,018  INFO ExecutionEventLogger:283 - 
+20:49:18,019  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+20:49:18,022  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:49:18,023  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+20:49:18,024  INFO ExecutionEventLogger:283 - 
+20:49:18,024  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+20:49:18,040  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+20:49:18,040  INFO ExecutionEventLogger:283 - 
+20:49:18,040  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+20:49:18,179  INFO ExecutionEventLogger:283 - 
+20:49:18,180  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+20:49:18,437  INFO WarMojo:59 - Packaging webapp
+20:49:18,439  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+20:49:18,450  INFO WarMojo:59 - Processing war project
+20:49:18,451  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+20:49:19,172  INFO WarMojo:59 - Webapp assembled in [733 msecs]
+20:49:19,356  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+20:49:24,540  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+20:49:24,570  INFO ExecutionEventLogger:283 - 
+20:49:24,570  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+20:49:24,633  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+20:49:24,822  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+20:49:24,838  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:49:24,867  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:49:24,868  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:49:24,868  INFO ExecutionEventLogger:223 - Total time: 8.503 s
+20:49:24,869  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:49:24+08:00
+20:49:24,927  INFO ExecutionEventLogger:233 - Final Memory: 11M/28M
+20:49:24,927  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:46,879  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+20:55:46,881  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+20:55:46,882  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+20:55:48,448  INFO ExecutionEventLogger:94 - Scanning for projects...
+20:55:48,785  INFO ExecutionEventLogger:256 - 
+20:55:48,789  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:48,790  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+20:55:48,790  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:49,644  INFO ExecutionEventLogger:283 - 
+20:55:49,644  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+20:55:49,912  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:55:49,916  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+20:55:49,921  INFO ExecutionEventLogger:283 - 
+20:55:49,922  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+20:55:50,239  INFO CompilerMojo:59 - Nothing to compile - all classes are up to date
+20:55:50,239  INFO ExecutionEventLogger:283 - 
+20:55:50,240  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+20:55:50,244  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+20:55:50,245  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+20:55:50,245  INFO ExecutionEventLogger:283 - 
+20:55:50,246  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+20:55:50,261  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+20:55:50,261  INFO ExecutionEventLogger:283 - 
+20:55:50,262  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+20:55:50,405  INFO ExecutionEventLogger:283 - 
+20:55:50,406  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+20:55:50,658  INFO WarMojo:59 - Packaging webapp
+20:55:50,660  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+20:55:50,670  INFO WarMojo:59 - Processing war project
+20:55:50,671  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+20:55:51,438  INFO WarMojo:59 - Webapp assembled in [778 msecs]
+20:55:51,661  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+20:55:57,779  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+20:55:57,809  INFO ExecutionEventLogger:283 - 
+20:55:57,809  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+20:55:57,877  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+20:55:58,466  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+20:55:58,480  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:58,481  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+20:55:58,481  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+20:55:58,482  INFO ExecutionEventLogger:223 - Total time: 10.075 s
+20:55:58,483  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T20:55:58+08:00
+20:55:58,559  INFO ExecutionEventLogger:233 - Final Memory: 12M/28M
+20:55:58,559  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:08:34,669  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:08:34,671  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:08:34,672  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:08:36,218  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:08:36,384  INFO ExecutionEventLogger:256 - 
+21:08:36,388  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:08:36,389  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+21:08:36,389  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:08:37,244  INFO ExecutionEventLogger:283 - 
+21:08:37,244  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+21:08:37,496  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:08:37,501  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+21:08:37,506  INFO ExecutionEventLogger:283 - 
+21:08:37,507  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+21:08:37,851  INFO CompilerMojo:59 - Nothing to compile - all classes are up to date
+21:08:37,851  INFO ExecutionEventLogger:283 - 
+21:08:37,852  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+21:08:37,855  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:08:37,856  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+21:08:37,856  INFO ExecutionEventLogger:283 - 
+21:08:37,856  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+21:08:37,891  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+21:08:37,891  INFO ExecutionEventLogger:283 - 
+21:08:37,892  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+21:08:38,034  INFO ExecutionEventLogger:283 - 
+21:08:38,038  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+21:08:38,293  INFO WarMojo:59 - Packaging webapp
+21:08:38,295  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+21:08:38,305  INFO WarMojo:59 - Processing war project
+21:08:38,306  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+21:08:38,978  INFO WarMojo:59 - Webapp assembled in [683 msecs]
+21:08:39,164  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+21:08:44,394  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+21:08:44,425  INFO ExecutionEventLogger:283 - 
+21:08:44,425  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+21:08:44,494  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+21:08:45,335  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+21:08:45,361  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:08:45,362  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:08:45,362  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:08:45,364  INFO ExecutionEventLogger:223 - Total time: 9.187 s
+21:08:45,365  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:08:45+08:00
+21:08:45,447  INFO ExecutionEventLogger:233 - Final Memory: 12M/28M
+21:08:45,447  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:14:54,288  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:14:54,290  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:14:54,291  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:14:55,843  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:14:56,070  INFO ExecutionEventLogger:256 - 
+21:14:56,074  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:14:56,074  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+21:14:56,074  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:14:56,131  INFO ExecutionEventLogger:283 - 
+21:14:56,131  INFO ExecutionEventLogger:290 - --- maven-clean-plugin:2.5:clean (default-clean) @ portal ---
+21:14:56,263  INFO CleanMojo:59 - Deleting H:\eclipse02\workspace\portal\target
+21:14:56,487  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:14:56,488  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:14:56,488  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:14:56,490  INFO ExecutionEventLogger:223 - Total time: 0.688 s
+21:14:56,490  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:14:56+08:00
+21:14:56,524  INFO ExecutionEventLogger:233 - Final Memory: 5M/15M
+21:14:56,524  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:15:29,174  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:15:29,176  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:15:29,177  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:15:30,885  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:15:31,055  INFO ExecutionEventLogger:256 - 
+21:15:31,058  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:15:31,059  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+21:15:31,059  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:15:31,951  INFO ExecutionEventLogger:283 - 
+21:15:31,951  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+21:15:32,205  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:15:32,209  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+21:15:32,215  INFO ExecutionEventLogger:283 - 
+21:15:32,215  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+21:15:32,491  INFO CompilerMojo:59 - Changes detected - recompiling the module!
+21:15:32,552  INFO JavacCompiler:59 - Compiling 2 source files to H:\eclipse02\workspace\portal\target\classes
+21:15:34,196  INFO ExecutionEventLogger:283 - 
+21:15:34,196  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+21:15:34,200  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:15:34,201  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+21:15:34,201  INFO ExecutionEventLogger:283 - 
+21:15:34,202  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+21:15:34,218  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+21:15:34,218  INFO ExecutionEventLogger:283 - 
+21:15:34,218  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+21:15:34,357  INFO ExecutionEventLogger:283 - 
+21:15:34,357  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+21:15:34,649  INFO WarMojo:59 - Packaging webapp
+21:15:34,651  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+21:15:34,662  INFO WarMojo:59 - Processing war project
+21:15:34,663  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+21:15:35,709  INFO WarMojo:59 - Webapp assembled in [1058 msecs]
+21:15:35,916  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+21:15:40,966  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+21:15:40,997  INFO ExecutionEventLogger:283 - 
+21:15:40,997  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+21:15:41,064  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+21:15:42,878  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+21:15:42,901  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:15:42,901  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:15:42,901  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:15:42,902  INFO ExecutionEventLogger:223 - Total time: 12.061 s
+21:15:42,902  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:15:42+08:00
+21:15:42,993  INFO ExecutionEventLogger:233 - Final Memory: 25M/61M
+21:15:42,994  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:24:48,580  WARN UnsupportedSlf4jBindingConfiguration:54 - The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.Log4jLoggerFactory
+21:24:48,583  WARN UnsupportedSlf4jBindingConfiguration:55 - Maven supported bindings are:
+21:24:48,584  WARN UnsupportedSlf4jBindingConfiguration:69 - (from jar:file:/H:/maven/apache-maven-3.5.2/lib/maven-embedder-3.5.2.jar!/META-INF/maven/slf4j-configuration.properties)
+- org.apache.logging.slf4j.Log4jLoggerFactory
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.impl.MavenSimpleLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+21:24:50,123  INFO ExecutionEventLogger:94 - Scanning for projects...
+21:24:50,280  INFO ExecutionEventLogger:256 - 
+21:24:50,284  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:24:50,284  INFO ExecutionEventLogger:86 - Building portal 0.0.1-SNAPSHOT
+21:24:50,284  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:24:51,149  INFO ExecutionEventLogger:283 - 
+21:24:51,149  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:resources (default-resources) @ portal ---
+21:24:51,408  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:24:51,412  INFO DefaultMavenResourcesFiltering:59 - Copying 2 resources
+21:24:51,418  INFO ExecutionEventLogger:283 - 
+21:24:51,418  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:compile (default-compile) @ portal ---
+21:24:51,695  INFO CompilerMojo:59 - Nothing to compile - all classes are up to date
+21:24:51,695  INFO ExecutionEventLogger:283 - 
+21:24:51,696  INFO ExecutionEventLogger:290 - --- maven-resources-plugin:2.6:testResources (default-testResources) @ portal ---
+21:24:51,699  WARN DefaultMavenResourcesFiltering:74 - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+21:24:51,700  INFO DefaultMavenResourcesFiltering:59 - Copying 0 resource
+21:24:51,700  INFO ExecutionEventLogger:283 - 
+21:24:51,700  INFO ExecutionEventLogger:290 - --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ portal ---
+21:24:51,718  INFO TestCompilerMojo:59 - Nothing to compile - all classes are up to date
+21:24:51,718  INFO ExecutionEventLogger:283 - 
+21:24:51,718  INFO ExecutionEventLogger:290 - --- maven-surefire-plugin:2.12.4:test (default-test) @ portal ---
+21:24:51,860  INFO ExecutionEventLogger:283 - 
+21:24:51,860  INFO ExecutionEventLogger:290 - --- maven-war-plugin:2.2:war (default-war) @ portal ---
+21:24:52,110  INFO WarMojo:59 - Packaging webapp
+21:24:52,112  INFO WarMojo:59 - Assembling webapp [portal] in [H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT]
+21:24:52,126  INFO WarMojo:59 - Processing war project
+21:24:52,127  INFO WarMojo:59 - Copying webapp resources [H:\eclipse02\workspace\portal\src\main\webapp]
+21:24:52,809  INFO WarMojo:59 - Webapp assembled in [697 msecs]
+21:24:53,154  INFO WarArchiver:59 - Building war: H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war
+21:24:58,203  INFO WarArchiver:59 - WEB-INF\web.xml already added, skipping
+21:24:58,233  INFO ExecutionEventLogger:283 - 
+21:24:58,233  INFO ExecutionEventLogger:290 - --- maven-install-plugin:2.4:install (default-install) @ portal ---
+21:24:58,301  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\target\portal-0.0.1-SNAPSHOT.war to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.war
+21:24:58,409  INFO PlexusContainer:59 - Installing H:\eclipse02\workspace\portal\pom.xml to H:\maven\repository\com\itheima\portal\0.0.1-SNAPSHOT\portal-0.0.1-SNAPSHOT.pom
+21:24:58,419  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:24:58,420  INFO ExecutionEventLogger:210 - BUILD SUCCESS
+21:24:58,420  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
+21:24:58,420  INFO ExecutionEventLogger:223 - Total time: 8.339 s
+21:24:58,421  INFO ExecutionEventLogger:225 - Finished at: 2018-03-23T21:24:58+08:00
+21:24:58,479  INFO ExecutionEventLogger:233 - Final Memory: 12M/28M
+21:24:58,479  INFO ExecutionEventLogger:86 - ------------------------------------------------------------------------
