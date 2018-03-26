@@ -26,6 +26,12 @@
 	</properties>
 
 	<dependencies>
+	<!--发邮件的邮件mailutils的依赖包 不能用1.4.0的版本!!!! -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
 		<!-- 权限控制 框架 -->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
@@ -255,11 +261,11 @@
 			<artifactId>pinyin4j</artifactId>
 			<version>2.5.0</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
 			<version>1.4</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>

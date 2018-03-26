@@ -48,5 +48,8 @@ public interface CustomerService {
     @POST
     @Path("/save")
     void save(Customer customer);
+    @PUT
+    @Path("/active")
+    void active(String telephone);
 }
   
